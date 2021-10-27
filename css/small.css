@@ -1,19 +1,73 @@
 .container {
     display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
+   flex-wrap:wrap;
+    flex-direction:column;
+    width:100%;
 }
 
 .container > * {
   padding:1em;
 }
 
+
 .flex-item {
     display:flex;
 }
 
+/*
 #menu {
 display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+}
+*/
+
+#logo-and-title {
+  text-align: center;
+}
+
+/* Style for containers that contain only text */
+
+.text-container {
+  display:flex;
+  flex-wrap:wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align:justify;
+  font-size:20px;
+}
+
+/* Style for "Click to View Specials" section */
+
+.specials {
+  display:flex;
+  flex-wrap:wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align:left;
+  padding:2em;
+  border-style: solid; 
+  border-width: 2px; 
+  border-color:black;
+  background-color:rgb(59, 24, 31);
+}
+
+/* Style for each individual special block */
+
+.ind-special {
+display:flex;
+}
+
+/* Style for the overall Newest Additions section */
+
+.newest {
+  display:flex;
+  flex-direction:column;
+}
+
+/* Style for each individual product in "Newest Additions" */
+
+.ind-newest {
+  display:flex;
+  margin:2em;
 }
