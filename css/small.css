@@ -1,4 +1,7 @@
 
+@media only screen and (min-device-width: 480px) {
+
+  /* General styles */
 
 .container {
     display:flex;
@@ -7,26 +10,28 @@
     width:100%;
 }
 
-.header-container {
-    display:flex;
-   flex-wrap:wrap;
-    flex-direction:row;
-   /* width:100%; */
-    justify-content:center;
-    align-content:center;
-}
-
-
 .container > * {
   padding:1em;
 }
 
 
-
 .flex-item {
-    display:flex;
+  display:flex;
 }
 
+
+
+/* Header Class */
+
+.header-container {
+    display:flex;
+   flex-wrap:wrap;
+    flex-direction:column;
+   /* width:100%; */
+    justify-content:center;
+    align-content:center;
+    text-align:center;
+}
 
 
 #menu {
@@ -36,19 +41,17 @@ flex-flow: row wrap;
 }
 
 
-
-#logo-and-title {
-  text-align: center;
-}
-
 #logo {
-  flex:20%;
+  flex:100%;
   margin:1em;
+  justify-content:center;
+  text-align:center!;
 }
 
 #titles {
   flex:45%;
   margin:1em;
+  max-width:45%;
 }
 
 #burger-menu {
@@ -110,4 +113,6 @@ display:flex;
 .ind-newest {
   display:flex;
   margin:2em;
+}
+
 }
