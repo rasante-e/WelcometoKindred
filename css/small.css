@@ -135,9 +135,17 @@ display:flex;
   margin-top:0px;
 }
 
+.ind-newest > img {
+  max-width:75%;
+}
+
 
 .ind-newest > h2 {
 font-size:20px;
+}
+
+.footer {
+  display:flex;
 }
 
 /* } *\
