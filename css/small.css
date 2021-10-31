@@ -1,6 +1,5 @@
 
-@media only screen and (min-device-width: 480px) {
-
+/* @media only screen and (min-device-width: 480px) { *\
   /* General styles */
 
 .container {
@@ -45,17 +44,25 @@ flex-flow: row wrap;
   flex:100%;
   margin:1em;
   justify-content:center;
-  text-align:center!;
+  text-align:center;
+  width:100%;
 }
 
 #titles {
-  flex:45%;
+  flex:100%;
   margin:1em;
-  max-width:45%;
+  text-align:center;
+}
+
+#titles > h1 {
+  font-size: 25px;
+}
+
+#titles > h2 {
+  font-size: 20px;
 }
 
 #burger-menu {
-  flex:25%;
   justify-content:center;
   align-self:center;
 }
@@ -67,8 +74,8 @@ flex-flow: row wrap;
 .text-container {
   display:flex;
   flex-wrap:wrap;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align:justify;
   font-size:20px;
 }
@@ -77,20 +84,28 @@ flex-flow: row wrap;
 /* Style for "Click to View Specials" section */
 
 
-.specials {
+#specials {
   display:flex;
   flex-wrap:wrap;
-  margin-left: 15%;
-  margin-right: 15%;
+  flex-direction:column;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align:left;
-  padding:2em;
+  padding:1em;
   border-style: solid; 
   border-width: 2px; 
   border-color:black;
   background-color:rgb(59, 24, 31);
 }
 
+#specials > *{
+display:flex;
+}
 
+#specials > h1 {
+font-size:  20px;
+display:flex;
+}
 
 
 /* Style for each individual special block */
@@ -103,16 +118,26 @@ display:flex;
 
 /* Style for the overall Newest Additions section */
 
-.newest {
+.newest > * {
   display:flex;
   flex-direction:column;
+}
+
+.newest > h1 {
+  font-size: 23px;
 }
 
 /* Style for each individual product in "Newest Additions" */
 
 .ind-newest {
   display:flex;
-  margin:2em;
+  margin:1em;
+  margin-top:0px;
 }
 
+
+.ind-newest > h2 {
+font-size:20px;
 }
+
+/* } *\
