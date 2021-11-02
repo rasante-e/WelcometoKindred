@@ -118,12 +118,12 @@ display:flex;
 
 /* Style for the overall Newest Additions section */
 
-.newest > * {
+#newest > * {
   display:flex;
   flex-direction:column;
 }
 
-.newest > h1 {
+#newest > h1 {
   font-size: 23px;
 }
 
