@@ -118,6 +118,13 @@ display:flex;
 
 /* Style for the overall Newest Additions section */
 
+#announcement {
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+}
+
 #newest > * {
   display:flex;
   flex-direction:column;
