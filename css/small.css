@@ -125,6 +125,10 @@ display:flex;
   text-align: center;
 }
 
+#announcement > h1 {
+  font-size:25px;
+}
+
 #newest > * {
   display:flex;
   flex-direction:column;

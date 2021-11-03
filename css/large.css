@@ -1,4 +1,4 @@
-@media (min-width:1200px) {
+@media (min-width:1024px) {
    
 p {
     color:blue;
@@ -12,11 +12,39 @@ p {
 
 /* Intro Styling */
 
+#intro {
+  max-width: 60%;
+  margin:auto;
+}
 
 
+#intro > p {
+    margin: 5px;
+    padding:0px;
+}
+
+/* Main body styling */
+
+#specials-additions {
+    display:flex;
+    flex-direction:row;
+}
+
+/* Use this to revert back to column 
 #specials-additions {
     display:flex;
     flex-direction:column;
 }
+*/
+
+/* Specials styling */
+
+#specials {
+    display:flex;
+    flex-direction:column;
+    width: 80%;
+    justify-content: flex-start;
+    margin:auto;
+  }
 
 }
