@@ -1,5 +1,22 @@
 @media (min-width:1200px) {
    
-
+p {
+    color:blue;
+}
     
+/* Navigation Formatting */
+
+  #nav-bar>ul>li {
+    font-size: 25px;
+  }
+
+/* Intro Styling */
+
+
+
+#specials-additions {
+    display:flex;
+    flex-direction:column;
+}
+
 }

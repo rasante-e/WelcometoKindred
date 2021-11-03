@@ -151,8 +151,17 @@ display:flex;
 font-size:20px;
 }
 
-.footer {
-  display:flex;
+.ind-newest > p{
+  max-width:225px;
 }
 
+
+/* Footer styling */
+footer {
+  display:flex;
+  margin:2em;
+}
+
+
 /* } *\
+
