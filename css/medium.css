@@ -45,7 +45,6 @@
 
   #logo {
     flex: 25%;
-    margin: 1em;
     justify-content: flex-start;
 
   }
@@ -66,6 +65,10 @@
 
   /* Navigation Bar Formatting */
 
+  #nav-bar {
+    background-color:#3b181f;
+  }
+  
   #nav-bar>ul {
     list-style-type: none;
     display: inline;
@@ -81,6 +84,7 @@
 
   #nav-bar>ul>li>a {
     text-decoration: none;
+    color: white;
   }
 
   /* Body Content Formatting */
@@ -133,13 +137,14 @@
     max-width:100%;
   }
 
-  /*
+  
   #announcement {
     margin:auto;
-    display:flex;
+    display:block;
+    width:100%;
     padding:auto;
     text-align: center;
   }
-*/
+
 
 }

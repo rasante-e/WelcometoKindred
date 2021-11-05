@@ -18,8 +18,15 @@
   display:flex;
 }
 
+#main-page {
+  background-image: linear-gradient(black,white);
+}
 
-
+/*
+.flex-container {
+  display:flex;
+}
+/*
 /* Header Class */
 
 #header-container {
@@ -41,11 +48,14 @@ flex-flow: row wrap;
 
 
 #logo {
-  flex:100%;
-  margin:1em;
+  margin:auto;
   justify-content:center;
   text-align:center;
-  width:100%;
+ /* width:350px; */
+}
+
+#logo > img {
+  width:200px;
 }
 
 #titles {
@@ -105,6 +115,7 @@ display:flex;
 #specials > h1 {
 font-size:  20px;
 display:flex;
+color:white;
 }
 
 

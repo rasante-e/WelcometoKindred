@@ -4,11 +4,17 @@ p {
     color:blue;
 }
     
+#logo {
+  width: 350px;
+  margin:auto;
+}
+
 /* Navigation Formatting */
 
   #nav-bar>ul>li {
     font-size: 25px;
   }
+
 
 /* Intro Styling */
 
