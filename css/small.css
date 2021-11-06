@@ -39,6 +39,12 @@
     text-align:center;
 }
 
+/* For hamburger menu */
+
+#nav-bar {
+  display:none;
+}
+
 
 #menu {
 display: flex;
@@ -73,8 +79,15 @@ flex-flow: row wrap;
 }
 
 #burger-menu {
-  justify-content:center;
-  align-self:center;
+  /* justify-content:center;
+  align-self:center; */
+  margin:auto;
+  background-color: #3b181f;
+}
+
+#burger-icon {
+  margin:auto;
+  text-align:center;
 }
 
 

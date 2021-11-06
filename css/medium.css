@@ -67,8 +67,9 @@
 
   #nav-bar {
     background-color:#3b181f;
+    display:inline-flex;
   }
-  
+ 
   #nav-bar>ul {
     list-style-type: none;
     display: inline;
