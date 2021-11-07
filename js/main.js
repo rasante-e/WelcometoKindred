@@ -16,3 +16,23 @@ function openSesame () {
       menu.classList.add("hidden");
   }
     }
+
+const specials = document.getElementById("specials");    
+specials.addEventListener("click", abraCadabra);
+
+  function abraCadabra () {
+  /*  menu.classList.toggle("visible"); */
+  /*console.log("This works!"); */
+
+  
+  if (specials.classList.contains("visible")) {
+      specials.classList.remove("visible");
+      specials.classList.add("hidden");
+  }
+
+  /*
+  else {
+      specials.classList.add("visible");
+  }
+  */
+    }

@@ -144,7 +144,7 @@ color:white;
 
 
 #specials {
-  display:flex;
+ /* display:flex; */
   flex-wrap:wrap;
   flex-direction:column;
   margin-left: 5%;
