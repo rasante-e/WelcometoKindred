@@ -39,17 +39,64 @@
     text-align:center;
 }
 
-/* For hamburger menu */
+/* Styling for navigation bar and hamburger menu */
 
+/*
 #nav-bar {
   display:none;
 }
-
+*/
 
 #menu {
 display: flex;
 flex-flow: row wrap; 
   justify-content: flex-end;
+}
+
+#burger-menu {
+  /* justify-content:center;
+  align-self:center; */
+  margin:auto;
+  background-color: #3b181f;
+}
+
+#burger-icon {
+  margin:auto;
+  text-align:center;
+}
+
+/*
+#nav-bar {
+  display:none;
+}
+*/
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display:none;
+}
+
+
+#nav-bar>ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav-bar>ul>li {
+  margin-bottom:0.5em;
+  font-size:18px;
+}
+
+#nav-bar>ul>li:hover {
+  background-color:#3b181f;
+}
+
+#nav-bar>ul>li>a {
+text-decoration:none;
+color:white;
 }
 
 
@@ -78,17 +125,6 @@ flex-flow: row wrap;
   font-size: 20px;
 }
 
-#burger-menu {
-  /* justify-content:center;
-  align-self:center; */
-  margin:auto;
-  background-color: #3b181f;
-}
-
-#burger-icon {
-  margin:auto;
-  text-align:center;
-}
 
 
 /* Style for containers that contain only text */
@@ -131,6 +167,9 @@ display:flex;
 color:white;
 }
 
+#sale-image {
+  display:none;
+}
 
 /* Style for each individual special block */
 
