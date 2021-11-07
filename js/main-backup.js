@@ -33,11 +33,11 @@ specials.addEventListener("click", abraCadabra);
       specials.classList.add("hidden");
   }
 
-  
+  /*
   else {
       specials.classList.add("visible");
   }
-  
+  */
  
     }
 

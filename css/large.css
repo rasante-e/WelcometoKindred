@@ -47,7 +47,7 @@ p {
 /* Specials styling */
 
 #specials {
-    display:flex;
+  /* display:flex; */
     flex-direction:column;
     flex-wrap:nowrap;
     width: 75%;
