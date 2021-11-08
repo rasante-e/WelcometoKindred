@@ -232,3 +232,13 @@ footer {
 
 /* } *\
 
+/* Styling for "Join the Coven" Page */
+#coven-form {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align:left;
+}
+
+.form-field {
+  margin-bottom:1em;
+}
