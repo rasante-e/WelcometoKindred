@@ -55,6 +55,16 @@ p {
     margin:1em;
     height:600px;
   }
+  
+  #deals {
+    /* display:flex; */
+      flex-direction:column;
+      flex-wrap:nowrap;
+      width: 75%;
+      justify-content: flex-start;
+      margin:1em;
+      height:600px;
+  }
 
   #sale-image {
     display:flex;

@@ -17,7 +17,8 @@ function openSesame () {
   }
     }
 
-const specials = document.getElementById("specials");    
+const specials = document.getElementById("specials");   
+const deals = document.getElementById("deals");
 specials.addEventListener("click", abraCadabra);
 
 
@@ -31,12 +32,16 @@ specials.addEventListener("click", abraCadabra);
   if (specials.classList.contains("visible")) {
       specials.classList.remove("visible");
       specials.classList.add("hidden");
+      deals.classList.remove("hidden");
+      deals.classList.add("visible");
   }
 
-  
+  /*
   else {
       specials.classList.add("visible");
   }
- 
+ */
 
 }
+
+
