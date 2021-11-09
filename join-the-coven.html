@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    
+    <script src="js/form-validation.js" type="text/javascript"></script>
 </head>
 
 <body id="main-page">
@@ -58,7 +58,9 @@
             </h3>
         </br>
             <div id="form">
-<form action="" method="post" class="basic-form">
+
+  <!-- <form method="post" class="basic-form" onsubmit="return validateForm()">-->              
+<form>
     <div id="name-field" class="form-field">
 <label for="first-name"> First Name:</label> 
 <input type="text" name="first-name">
@@ -80,6 +82,16 @@
     <br>
     <input type="radio" id="rituals" name="method">
     <label for="rituals">Rituals</label> 
+</div>
+
+<div id="years-field" class="form-field">
+    <label for="years"> For how many years have you been a witch or warlock? Answer must be written as a number (ex: 2, not two)</label>
+    <br> 
+    <input type="number" name="years">
+    </div>
+
+<div id="submit-button">
+    <input type="submit" value="Join Us!">
 </div>
 
 </form>

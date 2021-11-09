@@ -171,6 +171,30 @@ color:white;
   display:none;
 }
 
+/* Style for actual specials block */
+#deals {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:center;
+  padding:1em;
+  border-style: solid; 
+  border-width: 5px; 
+  border-color:whitesmoke;
+  background-color:#131e37;
+}
+
+#deals > h1 {
+  color:whitesmoke;
+  font-size:30px;
+}
+
+#deals > h2 {
+color:#989898;
+}
+
 /* Style for each individual special block */
 
 

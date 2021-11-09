@@ -37,8 +37,6 @@ specials.addEventListener("click", abraCadabra);
   else {
       specials.classList.add("visible");
   }
-  
  
-    }
 
-  
+}
