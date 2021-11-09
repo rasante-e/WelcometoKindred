@@ -66,6 +66,15 @@ p {
       height:600px;
   }
 
+  #deals > h1 {
+    font-size:30px;
+  }
+  
+  #deals > h2 {
+  font-size:25px;
+  }
+  
+
   #sale-image {
     display:flex;
     height:200px;

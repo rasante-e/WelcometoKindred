@@ -115,7 +115,15 @@
     justify-content: center;
     margin:auto;
   }
+ 
+  #deals > h1 {
+    font-size:26px;
+  }
   
+  #deals > h2 {
+  font-size:21px;
+  }
+
  /* / 
 
  

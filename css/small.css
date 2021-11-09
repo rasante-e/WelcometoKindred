@@ -188,11 +188,12 @@ color:white;
 
 #deals > h1 {
   color:whitesmoke;
-  font-size:30px;
+  font-size:22px;
 }
 
 #deals > h2 {
 color:#989898;
+font-size:18px;
 }
 
 /* Style for each individual special block */
