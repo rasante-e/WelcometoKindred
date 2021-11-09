@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script src="js/form-validation.js" type="text/javascript"></script>
+ 
+
+ <!-- Form validation script  
+<script>
+  const email = document.getElementById("years-response").value;
+  
+
+  function validateForm () {
+    console.log(email);
+  }
+
+</script>
+--> 
+<!-- <script src="js/form-validation.js" type="text/javascript"></script> -->
+
 </head>
 
 <body id="main-page">
@@ -57,6 +71,8 @@
                 Become a member of the coven by entering your name, email and preferences below!
             </h3>
         </br>
+
+        <p id="congrats"></p>
             <div id="form">
 
   <!-- <form method="post" class="basic-form" onsubmit="return validateForm()">-->              
@@ -87,16 +103,25 @@
 <div id="years-field" class="form-field">
     <label for="years"> For how many years have you been a witch or warlock? Answer must be written as a number (ex: 2, not two)</label>
     <br> 
-    <input type="text" name="years">
+    <input type="text" name="years" id="years-response">
     </div>
 
+  <!--Previous submit button-->
+  <!--
+    <div id="submit-button">
+        <button type="button" onclick="validateForm();">Join us!</button>
+    </div>
+-->
+    
 <div id="submit-button">
-    <input type="submit" value="Join Us!">
+    <input type="submit" value="Join Us!" onclick="validateForm(); return false;">
 </div>
 
 </form>
 
             </div>
+
+            
             <p>
                 dead rifle savant vinyl boy sensory plastic urban claymore mine skyscraper vinyl. ablative camera sprawl
                 saturation point nano- construct tower order-flow assault tank-traps franchise. disposable cardboard
@@ -122,5 +147,6 @@
         </p>
     </footer>
 </body>
-<script src="js/main.js"></script>
+<script src="js/form-validation.js" type="text/javascript"></script> 
+<!-- <script src="js/main.js"></script> -->
 </html>
