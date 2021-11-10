@@ -12,6 +12,7 @@ CSS Features list:
 2. Flexbox: the majority of the site layout is set up using flexbox. Adjusting the flex direction from row to column for certain elements is crucial to the site's layout changes from mobile to tablet and desktop. For example, flexbox properties are responsible for the change in the layout of the homepage from one column for mobile to multiple columns for bigger screen widths.
 
 Javascript Features List
+
 3. Contact form, validation, and use of input: The "Join the Coven" page has a contact form inviting the website visitor to join the fictional group. One of the inputs in the form is "years of magic experience," which must be entered as a number. Using JavaScript, the user's input is validated to test whether it is a number or not. If the input is not a number, or no input is added into this field, the user will receive a message on the page telling them to input a valid number. If the input is validated to be a number, upon clicking the submit button a message appears on the webpage congratulating them for their years of experience (using their input for the number of years).
 
 4. Show/hide content using JavaScript: the "Surprise special deals" section can be clicked to reveal store specials. When clicked, the initial "special deals" section will disappear, and a listing of the actual available specials appears instead. The hamburger menu button also shows the menu when clicked, and collapses the menu when clicked again. Both are accomplished using JavaScript.
